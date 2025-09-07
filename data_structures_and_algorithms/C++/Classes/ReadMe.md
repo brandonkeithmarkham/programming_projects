@@ -7,15 +7,10 @@ A small console program that analyzes an integer and prints a formatted report:
 - **D.** Whether it is **prime**  
 - **E.** Whether it is a **perfect number**
 
-This is a refactor of a class assignment split into a professional 3-file layout:
+This is a class assignment that consists of 3 files:
 - `my_int.h` — class declaration  
 - `my_int.cpp` — class implementation  
 - `main.cpp` — user interaction (I/O)
 
----
 
-## Build
 
-### Using g++ (any platform)
-```bash
-g++ -std=c++17 -Wall -Wextra -pedantic main.cpp my_int.cpp -o integer_app
